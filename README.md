@@ -9,7 +9,7 @@ In prior iOS/iPadOS versions, the `volume` property of `<audio>` and `<video>` e
 
 In iPadOS 26.2, setting `element.volume` in JavaScript now successfully adjusts the actual playback volume. This is a significant behavior change that enables web apps to implement custom volume sliders.
 
-No official mention of this change appears in Safari 26.2 release notes or WebKit documentation searched as of January 2026. It may be an intentional new feature or an undocumented regression.
+No official mention of this change appears in Safari & Chrome release notes or WebKit documentation searched as of January 2026. It may be an intentional new feature or an undocumented regression.
 
 #### Steps to Reproduce / Test Case
 1. Open Safari on iPadOS 26.2.
@@ -20,7 +20,7 @@ No official mention of this change appears in Safari 26.2 release notes or WebKi
 6. Listen for changes in actual loudness.
 7. Additionally test: Change system volume while web volume is set to 0.5 — does output scale with system volume (multiplicative) or override it (independent)?
 
-**Test HTML Page** (save as .html or paste into a code playground like CodePen and open in Safari & Google chrome):
+**Test HTML Page** (save as .html or paste into a code playground like CodePen and open in Safari & Chrome):
 
 ```html
 <!DOCTYPE html>
