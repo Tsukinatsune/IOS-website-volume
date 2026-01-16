@@ -1,4 +1,4 @@
-### Report: JavaScript `volume` Property Now Affects Web Audio Playback in Safari on iPadOS 26.2
+### Report: JavaScript `volume` Property Now Affects Web Audio Playback in Safari & Google on iPadOS 26.2
 
 **Date:** January 16, 2026  
 **Device/OS:** iPad running iPadOS 26.2 (build 23C55)  
