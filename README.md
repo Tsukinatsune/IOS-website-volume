@@ -1,8 +1,8 @@
-### Report: JavaScript `volume` Property Now Affects Web Audio Playback in Safari & Google on iPadOS 26.2
+### Report: JavaScript `volume` Property Now Affects Web Audio Playback in Safari & Chrome on iPadOS 26.2
 
 **Date:** January 16, 2026  
 **Device/OS:** iPad running iPadOS 26.2 (build 23C55)  
-**Browser:** Safari & Google (version tied to iPadOS 26.2)    
+**Browser:** Safari & Chrome (version tied to iPadOS 26.2)    
 
 #### Summary
 In prior iOS/iPadOS versions, the `volume` property of `<audio>` and `<video>` elements could not be effectively controlled via JavaScript. Setting `element.volume` had no impact on actual playback loudness — volume was strictly tied to the device's hardware/system volume controls. Reading `element.volume` typically returned 1.0, and changes were ignored for user experience and data safety reasons.
