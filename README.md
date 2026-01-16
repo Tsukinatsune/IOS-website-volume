@@ -20,7 +20,7 @@ No official mention of this change appears in Safari 26.2 release notes or WebKi
 6. Listen for changes in actual loudness.
 7. Additionally test: Change system volume while web volume is set to 0.5 — does output scale with system volume (multiplicative) or override it (independent)?
 
-**Test HTML Page** (save as .html or paste into a code playground like CodePen and open in Safari):
+**Test HTML Page** (save as .html or paste into a code playground like CodePen and open in Safari & Google chrome):
 
 ```html
 <!DOCTYPE html>
@@ -75,9 +75,3 @@ No official mention of this change appears in Safari 26.2 release notes or WebKi
 </body>
 </html>
 ```
-
-#### Additional Tests Recommended
-- Test with Web Audio API (GainNode) — does `gain.value` now affect output?
-- Test in private browsing vs normal.
-- Test with headphones vs built-in speakers.
-- Test if volume persists across page reloads or tab switches.
